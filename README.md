@@ -16,8 +16,8 @@ The program code for Kafka is bin/kafka-server-start etc/kafka/server.properties
 
 
 
-# Code for topic creation: rm bin/kafka-topics --create --zookeeper localhost:2181 --partitions 1 --replication-factor 1 --topic HardikRathod-console-topic
-
+# Code for topic creation:
+rm bin/kafka-topics --create --zookeeper localhost:2181 --partitions 1 --replication-factor 1 --topic HardikRathod-console-topic
 
 
 # Create write-to-file: vi write-to-file.sh
